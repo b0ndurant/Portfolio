@@ -11,7 +11,7 @@ h1, h2 {
     background-color: #1d2124;
 }
 
-.navbar-expand-md .navbar-nav .nav-link {
+.navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -28,7 +28,7 @@ h1, h2 {
 @media screen and (min-width: 380px) {
     .navbar .active {
         border-bottom: 1px solid white;
-    }
+    }   
 }
 
 /*-------------- Home --------------*/
