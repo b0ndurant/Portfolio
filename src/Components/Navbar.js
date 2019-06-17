@@ -8,7 +8,7 @@ import { NavHashLink as NavLink } from 'react-router-hash-link';
 class NavbarMenu extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-md navbar-dark fixed-top navbar-top">
+            <nav className="navbar navbar-expand-lg navbar-dark fixed-top navbar-top">
                 <div className="mr-auto order-0">
                     <NavLink to="/#banner" className="navbar-brand ml-auto active">Mon Portfolio</NavLink>
                 </div>

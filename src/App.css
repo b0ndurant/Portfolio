@@ -29,21 +29,12 @@ h1, h2 {
     .navbar .active {
         border-bottom: 1px solid white;
     }
-
-    .navbar {
-        height: 50px;
-    }
-
-    .navbar-top {
-        height: 90px;
-    }
 }
 
 /*-------------- Home --------------*/
 
 #banner {
-    padding-top: 8rem;
-    padding-bottom: 4rem;
+    height: 100vh;
 }
 
 .banner-text img {
@@ -81,15 +72,15 @@ h1, h2 {
 /*----------------- ToolsAndLlf ---------------*/
 
 #toolsAndLlf {
-    padding: 3rem 0;
+    height: 100vh;
 }
 
-.toolsAndLlf h2 {
+#toolsAndLlf .toolsAndLlf {
+    margin: auto;
+}
+
+#toolsAndLlf h2 {
     padding-bottom: 30px;
-}
-
-#toolsAndLlf .row {
-    margin: 0;
 }
 
 #toolsAndLlf .col-auto {
@@ -102,16 +93,21 @@ h1, h2 {
 }
 
 #toolsAndLlf hr {
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin: 4rem;
     border: solid 1px black;
     width: 75%;
+}
+
+@media screen and (max-width:380px) {
+    #toolsAndLlf {
+        height: unset;
+    }
 }
 
 /*-------------- Project ------------*/
 
 #Project {
-    padding-bottom: 3rem;
+    height: 100vh;
 }
 
 .react-parallax-bgimage {
@@ -155,6 +151,10 @@ h1, h2 {
 }
 
 @media screen and (max-width: 380px) {
+    #Project {
+        height: unset;
+    }
+
     .col-md-4 {
         padding-bottom: 3rem;
     }
@@ -163,10 +163,11 @@ h1, h2 {
 /*---------------- About ------------*/
 
 #About {
-    padding: 3rem 1rem;
+    height: 100vh;
 }
+
 #About h2 {
-    padding-bottom: 2rem;
+    padding-bottom: 30px;
 }
 
 #About .jumbotron {
@@ -183,11 +184,17 @@ h1, h2 {
 }
 
 @media screen and (max-width: 380px) {
+    #About {
+        height: unset;
+    }
 
+    #About .jumbotron .col-sm-5 {
+        padding-bottom: 2rem;
+    }
+    
     #About .jumbotron img {
-        width: 50vw;
-        height: 50vw;
-        margin-bottom: 2rem;
+        width: 40vw;
+        height: 40vw;
     }
 }
 
@@ -221,19 +228,15 @@ h1, h2 {
 }
 
 .footer .link i{
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
-.footer .link .fa-linkedin {
-    color: #0077B5;
-}
-
-.footer .link .fa-github-square {
+.footer .link i {
     color: black;
 }
 
 .footer .contact div {
-    font-size: 22px;
+    font-size: 16px;
     word-break: break-all;
 }
 

@@ -6,6 +6,7 @@ import monEspacePerruques from '../asset/img/Screen_projects/monEspacePerruques.
 import reactMovies from '../asset/img/Screen_projects/React-movies.png';
 import RlnegoceAuto from '../asset/img/Screen_projects/Rl-negoceAuto.png';
 import RsBat from '../asset/img/Screen_projects/rs-Bat.png';
+import chatBox from '../asset/img/Screen_projects/chatBox.png';
 
 
 class Project extends Component {
@@ -80,6 +81,16 @@ class Project extends Component {
                                             <h5 className="card-title">React Movies</h5>
                                             <p className="card-text">Application Réact réalisé avec la consommation d'une Api Rest "The Movie Database".</p>
                                             <a href="https://cocky-elion-08c934.netlify.com/" className="btn btn-primary" target="blank">Live Démo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4">
+                                    <div className="card">
+                                        <img className="card-img-top" src={chatBox} alt="Card chat-box" />
+                                        <div className="card-body">
+                                            <h5 className="card-title">React Chat Box</h5>
+                                            <p className="card-text">Application Réact lié avec la database Firebase permettant de lancer un chat en temps réel</p>
+                                            <a href="http://chat-box-react.herokuapp.com/" className="btn btn-primary" target="blank">Live Démo</a>
                                         </div>
                                     </div>
                                 </div>
