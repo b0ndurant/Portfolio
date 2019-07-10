@@ -101,6 +101,7 @@ h1, h2 {
 @media screen and (max-width:380px) {
     #toolsAndLlf {
         height: unset;
+        padding: 3rem 1rem;
     }
 }
 
@@ -186,6 +187,7 @@ h1, h2 {
 @media screen and (max-width: 380px) {
     #About {
         height: unset;
+        padding: 3rem 0;
     }
 
     #About .jumbotron .col-sm-5 {
