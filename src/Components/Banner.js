@@ -14,7 +14,7 @@ const Banner = () => {
                     <h1>Aurélien Martin</h1>
                     <hr />
                     <h2>Développeur Web Junior</h2>
-                    Php/Symfony 3 et 4 & javascriscpt/React
+                    Php/Symfony 3 et 4 & javascript/React
                     </div>
             </div>
         </Parallax>
