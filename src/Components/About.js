@@ -1,5 +1,8 @@
 import React from 'react';
 
+import avatar from '../asset/img/avatar.jpg';
+
+
 const About = () => {
     return (
         <div id="About">
@@ -7,7 +10,7 @@ const About = () => {
             <div className="jumbotron">
                 <div className="row align-items-center">
                     <div className="col-md-4 text-center">
-                        <img src="http://www.loansplus.co.za/img/team-avatar.jpg" alt="avatar" />
+                        <img src={avatar} alt="avatar" />
                     </div>
                     <div className="col-md-8">
                         <p className="text-center">
